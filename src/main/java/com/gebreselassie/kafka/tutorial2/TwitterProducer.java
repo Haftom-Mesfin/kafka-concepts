@@ -128,4 +128,9 @@ public class TwitterProducer {
         Client hosebirdClient = builder.build();
         return hosebirdClient;
     }
+
+    // just for testing for the new branch
+    public static void test(){
+        System.out.println("Testing branch....");
+    }
 }
